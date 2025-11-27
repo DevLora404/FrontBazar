@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front Bazar — Soluciones web profesionales</title>
+  <meta name="description" content="Desarrollamos sitios web modernos, rápidos y minimalistas para elevar tu marca al siguiente nivel.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ====== LOADER ====== -->
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <div class="loader-logo">FB</div>
+      <div class="loader-text">Cargando...</div>
+    </div>
+  </div>
+
+  <!-- ====== HEADER ====== -->
+  <header id="header">
+    <a href="#inicio" class="brand-link">
+      <h2>Front Bazar</h2>
+    </a>
+    <nav class="nav-desktop">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#valores">Valores</a>
+<!--       <a href="#equipo">Equipo</a>
+ -->      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- ====== MENÚ MÓVIL ====== -->
+  <nav class="nav-mobile" id="navMobile">
+    <a href="#inicio" class="nav-mobile-link">Inicio</a>
+    <a href="#servicios" class="nav-mobile-link">Servicios</a>
+    <a href="#valores" class="nav-mobile-link">Valores</a>
+    <a href="#equipo" class="nav-mobile-link">Equipo</a>
+    <a href="#testimonios" class="nav-mobile-link">Testimonios</a>
+    <a href="#faq" class="nav-mobile-link">FAQ</a>
+    <a href="#contacto" class="nav-mobile-link">Contacto</a>
+  </nav>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="inicio">
+    <h1>Construimos tu presencia digital</h1>
+    <p>Desarrollamos sitios web modernos, rápidos y minimalistas que elevan tu marca al siguiente nivel.</p>
+    <a class="btn" href="#contacto">Comenzar ahora</a>
+  </section>
+
+  <!-- ====== ESTADÍSTICAS ====== -->
+  <section class="stats-section">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number" data-target="50">340</div>
+        <div class="stat-label">Proyectos Completados</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" data-target="100">400</div>
+        <div class="stat-label">Clientes Satisfechos</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" data-target="24">100%</div>
+        <div class="stat-label">Soporte 24/7</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" data-target="99">100%</div>
+        <div class="stat-label">Uptime Garantizado</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== WHY SECTION ====== -->
+  <section id="why" class="why">
+    <h2>¿Por qué elegir Front Bazar?</h2>
+    
+    <article class="info-section">
+      <h3>La opción más <span>segura, rápida y confiable</span></h3>
+      <p>Te ofrecemos múltiples opciones de diseño para que elijas la que mejor se adapte a tus necesidades.</p>
+      <p>Nos comprometemos a trabajar contigo hasta que tu página esté completamente terminada.</p>
+      <p>Front Bazar se dedica al desarrollo, diseño y mantenimiento de páginas web, ofreciendo soluciones digitales personalizadas para empresas y emprendedores.</p>
+    </article>
+
+    <div class="why-grid">
+      <article class="why-card fade-in">
+        <div class="why-icon" aria-hidden="true">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <h3>Seguridad</h3>
+        <p>Arquitecturas limpias y robustas para mantener tu sitio protegido.</p>
+      </article>
+      
+      <article class="why-card fade-in">
+        <div class="why-icon" aria-hidden="true">
+          <i class="fas fa-bolt"></i>
+        </div>
+        <h3>Rapidez</h3>
+        <p>Optimización profesional para tiempos de carga mínimos.</p>
+      </article>
+      
+      <article class="why-card fade-in">
+        <div class="why-icon" aria-hidden="true">
+          <i class="fas fa-heart"></i>
+        </div>
+        <h3>Confianza</h3>
+        <p>Avances semanales, comunicación directa y cero sorpresas.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ====== PROCESO ====== -->
+  <section class="proceso-section">
+    <h2>Nuestro Proceso</h2>
+    <div class="timeline">
+      <div class="timeline-item fade-in">
+        <div class="timeline-icon">
+          <i class="fas fa-comments"></i>
+        </div>
+        <div class="timeline-content">
+          <h3>1. Consulta Inicial</h3>
+          <p>Conversamos sobre tu visión, objetivos y necesidades específicas.</p>
+        </div>
+      </div>
+      
+      <div class="timeline-item fade-in">
+        <div class="timeline-icon">
+          <i class="fas fa-pencil-ruler"></i>
+        </div>
+        <div class="timeline-content">
+          <h3>2. Diseño y Planificación</h3>
+          <p>Creamos mockups y definimos la estructura de tu sitio web.</p>
+        </div>
+      </div>
+      
+      <div class="timeline-item fade-in">
+        <div class="timeline-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <div class="timeline-content">
+          <h3>3. Desarrollo</h3>
+          <p>Construimos tu sitio con las mejores tecnologías y prácticas.</p>
+        </div>
+      </div>
+      
+      <div class="timeline-item fade-in">
+        <div class="timeline-icon">
+          <i class="fas fa-vial"></i>
+        </div>
+        <div class="timeline-content">
+          <h3>4. Pruebas y Ajustes</h3>
+          <p>Revisamos cada detalle y realizamos los ajustes necesarios.</p>
+        </div>
+      </div>
+      
+      <div class="timeline-item fade-in">
+        <div class="timeline-icon">
+          <i class="fas fa-rocket"></i>
+        </div>
+        <div class="timeline-content">
+          <h3>5. Lanzamiento</h3>
+          <p>¡Tu sitio está listo para conquistar el mundo digital!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== MISIÓN Y VISIÓN ====== -->
+  <section class="mision-section">
+    <article class="mision-box fade-in">
+      <h2>Misión</h2>
+      <p>Nuestra misión es impulsar el crecimiento digital de pequeños y medianos negocios mediante la creación de sitios web funcionales, atractivos y accesibles.</p>
+      <p>Trabajamos para que cada empresa establezca una presencia profesional en línea que refleje su identidad, fortalezca su marca y le permita conectar de manera efectiva con sus clientes.</p>
+      <p>En Front Bazar, ofrecemos soluciones personalizadas y de alta calidad, enfocadas en la eficiencia, la innovación y la satisfacción de nuestros clientes.</p>
+    </article>
+    
+    <article class="mision-box fade-in">
+      <h2>Visión</h2>
+      <p>Nuestra visión es consolidarnos como una empresa líder en el desarrollo de soluciones web dirigidas a emprendedores y negocios en crecimiento, destacándonos por nuestro compromiso, calidad y enfoque en la transformación digital.</p>
+    </article>
+  </section>
+
+  <!-- ====== SERVICIOS ====== -->
+  <section id="servicios" class="servicios">
+    <h2>Servicios</h2>
+    <div class="service-grid">
+      <article class="service fade-in">
+        <div class="service-icon" aria-hidden="true">
+          <i class="fas fa-palette"></i>
+        </div>
+        <h3>Diseño Web</h3>
+        <p>Maquetación minimalista y completamente adaptable a todos los dispositivos.</p>
+      </article>
+      
+      <article class="service fade-in">
+        <div class="service-icon" aria-hidden="true">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3>Desarrollo</h3>
+        <p>Programación enfocada en rendimiento, seguridad y mejores prácticas.</p>
+      </article>
+      
+      <article class="service fade-in">
+        <div class="service-icon" aria-hidden="true">
+          <i class="fas fa-headset"></i>
+        </div>
+        <h3>Soporte</h3>
+        <p>Mantenimiento continuo para un sitio siempre funcionando al 100%.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ====== TECNOLOGÍAS ====== -->
+  <section class="tech-section">
+    <h2>Tecnologías que Dominamos</h2>
+    <div class="tech-grid">
+      <div class="tech-card fade-in">
+        <i class="fab fa-html5"></i>
+        <span>HTML5</span>
+      </div>
+      <div class="tech-card fade-in">
+        <i class="fab fa-css3-alt"></i>
+        <span>CSS3</span>
+      </div>
+      <div class="tech-card fade-in">
+        <i class="fab fa-js"></i>
+        <span>JavaScript</span>
+      </div>
+      <div class="tech-card fade-in">
+        <i class="fab fa-react"></i>
+        <span>React</span>
+      </div>
+      <div class="tech-card fade-in">
+        <i class="fab fa-node"></i>
+        <span>Node.js</span>
+      </div>
+      <div class="tech-card fade-in">
+        <i class="fab fa-wordpress"></i>
+        <span>WordPress</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== VALORES ====== -->
+  <section id="valores" class="valores-section">
+    <h2>Nuestros Valores</h2>
+    <div class="valores-grid">
+      <article class="valor-card fade-in">
+        <div class="valor-icon" aria-hidden="true">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3>Empoderamiento del Cliente</h3>
+        <p>En Front Bazar, tu éxito es nuestro código fuente. Nos aseguramos de que cada pequeño negocio no solo obtenga la página web que merece, sino que también comprenda el proceso y se sienta en control.</p>
+      </article>
+      
+      <article class="valor-card fade-in">
+        <div class="valor-icon" aria-hidden="true">
+          <i class="fas fa-universal-access"></i>
+        </div>
+        <h3>Accesibilidad</h3>
+        <p>Hacemos lo complejo, simple. Nuestro servicio está diseñado para ser claro y asequible, especialmente para quienes dan sus primeros pasos en el mundo digital.</p>
+      </article>
+      
+      <article class="valor-card fade-in">
+        <div class="valor-icon" aria-hidden="true">
+          <i class="fas fa-star"></i>
+        </div>
+        <h3>Excelencia</h3>
+        <p>El buen diseño es un activo. Cada sitio que desarrollamos es estético, funcional y profesional, reflejando la calidad de tu marca.</p>
+      </article>
+      
+      <article class="valor-card fade-in">
+        <div class="valor-icon" aria-hidden="true">
+          <i class="fas fa-handshake"></i>
+        </div>
+        <h3>Transparencia</h3>
+        <p>La honestidad es nuestra base. Comunicamos procesos, precios y tiempos con total claridad para garantizar tranquilidad en cada etapa.</p>
+      </article>
+      
+      <article class="valor-card fade-in">
+        <div class="valor-icon" aria-hidden="true">
+          <i class="fas fa-lightbulb"></i>
+        </div>
+        <h3>Innovación Práctica</h3>
+        <p>Usamos tecnología moderna y prácticas actualizadas, siempre con enfoque útil: tecnología que sirve, no que complica.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ====== PAQUETES/PRECIOS ====== -->
+  <section class="pricing-section">
+    <h2>Nuestros Paquetes</h2>
+    <div class="pricing-grid">
+      <article class="pricing-card fade-in">
+        <div class="pricing-header">
+          <h3>Básico</h3>
+          <div class="price">MX$299<span>/proyecto</span></div>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fas fa-check"></i> Diseño responsive</li>
+          <li><i class="fas fa-check"></i> Hasta 5 páginas</li>
+          <li><i class="fas fa-check"></i> Formulario de contacto</li>
+          <li><i class="fas fa-check"></i> SEO básico</li>
+          <li><i class="fas fa-check"></i> 1 mes de soporte</li>
+        </ul>
+        <a href="#contacto" class="pricing-btn">Empezar</a>
+      </article>
+      
+      <article class="pricing-card pricing-featured fade-in">
+        <div class="pricing-badge">Popular</div>
+        <div class="pricing-header">
+          <h3>Profesional</h3>
+          <div class="price">MX$599<span>/proyecto</span></div>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fas fa-check"></i> Todo del plan Básico</li>
+          <li><i class="fas fa-check"></i> Hasta 10 páginas</li>
+          <li><i class="fas fa-check"></i> Blog integrado</li>
+          <li><i class="fas fa-check"></i> SEO avanzado</li>
+          <li><i class="fas fa-check"></i> 3 meses de soporte</li>
+          <li><i class="fas fa-check"></i> Analíticas</li>
+        </ul>
+        <a href="#contacto" class="pricing-btn">Empezar</a>
+      </article>
+      
+      <article class="pricing-card fade-in">
+        <div class="pricing-header">
+          <h3>Premium</h3>
+          <div class="price">MX$999<span>/proyecto</span></div>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fas fa-check"></i> Todo del plan Profesional</li>
+          <li><i class="fas fa-check"></i> Páginas ilimitadas</li>
+          <li><i class="fas fa-check"></i> E-commerce</li>
+          <li><i class="fas fa-check"></i> CMS personalizado</li>
+          <li><i class="fas fa-check"></i> 6 meses de soporte</li>
+          <li><i class="fas fa-check"></i> Mantenimiento incluido</li>
+        </ul>
+        <a href="#contacto" class="pricing-btn">Empezar</a>
+      </article>
+    </div>
+  </section>
+
+<!--   ====== EQUIPO ======
+  <section id="equipo" class="team-section">
+    <h2>Nuestro Equipo</h2>
+    <div class="team-grid">
+      <article class="team-card fade-in">
+        <div class="team-img">
+          <img src="media/miembro1.jpg" alt="Miembro del equipo 1">
+        </div>
+        <h3>Nombre del Miembro</h3>
+        <p class="puesto">Cargo dentro de la empresa</p>
+        <p class="desc">Descripción breve del trabajo, funciones o aporte dentro de Front Bazar.</p>
+      </article>
+      
+      <article class="team-card fade-in">
+        <div class="team-img">
+          <img src="media/miembro2.jpg" alt="Miembro del equipo 2">
+        </div>
+        <h3>Nombre del Miembro</h3>
+        <p class="puesto">Cargo dentro de la empresa</p>
+        <p class="desc">Descripción breve del trabajo, funciones o aporte dentro de Front Bazar.</p>
+      </article>
+      
+      <article class="team-card fade-in">
+        <div class="team-img">
+          <img src="media/miembro3.jpg" alt="Miembro del equipo 3">
+        </div>
+        <h3>Nombre del Miembro</h3>
+        <p class="puesto">Cargo dentro de la empresa</p>
+        <p class="desc">Descripción breve del trabajo, funciones o aporte dentro de Front Bazar.</p>
+      </article>
+    </div>
+  </section>
+ -->
+  <!-- ====== TESTIMONIOS ====== -->
+  <section id="testimonios" class="testimonials-section">
+    <h2>Lo que dicen nuestros clientes</h2>
+    <div class="testimonials-container">
+      <button class="testimonial-nav prev" aria-label="Anterior">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      
+      <div class="testimonials-track">
+        <article class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Front Bazar transformó completamente nuestra presencia digital. El equipo fue profesional, rápido y entendió perfectamente nuestra visión."</p>
+          <div class="testimonial-author">
+            <div class="author-img">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVqZXIlMjBkZSUyMG5lZ29jaW9zfGVufDB8fDB8fHww" alt="Cliente 1">
+            </div>
+            <div class="author-info">
+              <h4>María González</h4>
+              <p>CEO, TechStartup</p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Excelente servicio y atención al detalle. Nuestro sitio web ahora es rápido, moderno y exactamente lo que necesitábamos."</p>
+          <div class="testimonial-author">
+            <div class="author-img">
+              <img src="https://media.istockphoto.com/id/1413766112/es/foto/exitoso-hombre-de-negocios-maduro-mirando-a-la-c%C3%A1mara-con-confianza.jpg?s=612x612&w=0&k=20&c=_wh29d41PN8a3GlqANKphBMIkN2P-QI4KPPIM7bVvDA=" alt="Cliente 2">
+            </div>
+            <div class="author-info">
+              <h4>Carlos Ramírez</h4>
+              <p>Fundador, CreativeAgency</p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">"La mejor inversión que hemos hecho. El equipo de Front Bazar superó todas nuestras expectativas."</p>
+          <div class="testimonial-author">
+            <div class="author-img">
+              <img src="https://i.pinimg.com/736x/2c/47/d5/2c47d5dd5b532f83bb55c4cd6f5bd1ef.jpg" alt="Cliente 3">
+            </div>
+            <div class="author-info">
+              <h4>Ana Martínez</h4>
+              <p>Directora, Boutique Online</p>
+            </div>
+          </div>
+        </article>
+      </div>
+      
+      <button class="testimonial-nav next" aria-label="Siguiente">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+    <div class="testimonial-dots"></div>
+  </section>
+
+  <!-- ====== FAQ ====== -->
+  <section id="faq" class="faq-section">
+    <h2>Preguntas Frecuentes</h2>
+    <div class="faq-container">
+      <article class="faq-item fade-in">
+        <button class="faq-question">
+          <span>¿Cuánto tiempo toma desarrollar un sitio web?</span>
+          <i class="fas fa-plus"></i>
+        </button>
+        <div class="faq-answer">
+          <p>El tiempo varía según la complejidad del proyecto. Un sitio básico toma entre 2-3 semanas, mientras que proyectos más complejos pueden tomar 4-8 semanas. Siempre te mantendremos informado del progreso.</p>
+        </div>
+      </article>
+      
+      <article class="faq-item fade-in">
+        <button class="faq-question">
+          <span>¿Ofrecen mantenimiento después del lanzamiento?</span>
+          <i class="fas fa-plus"></i>
+        </button>
+        <div class="faq-answer">
+          <p>¡Sí! Todos nuestros paquetes incluyen soporte post-lanzamiento. Además, ofrecemos planes de mantenimiento mensual para actualizaciones continuas, seguridad y respaldos.</p>
+        </div>
+      </article>
+      
+      <article class="faq-item fade-in">
+        <button class="faq-question">
+          <span>¿El sitio será responsive (adaptable a móviles)?</span>
+          <i class="fas fa-plus"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Absolutamente. Todos nuestros diseños son 100% responsive y se ven perfectos en cualquier dispositivo: móvil, tablet, laptop y desktop.</p>
+        </div>
+      </article>
+      
+      <article class="faq-item fade-in">
+        <button class="faq-question">
+          <span>¿Puedo actualizar el contenido yo mismo?</span>
+          <i class="fas fa-plus"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Sí, podemos integrar un CMS (Sistema de Gestión de Contenidos) fácil de usar para que puedas hacer cambios sin conocimientos técnicos. También ofrecemos capacitación.</p>
+        </div>
+      </article>
+      
+      <article class="faq-item fade-in">
+        <button class="faq-question">
+          <span>¿Incluyen SEO en sus servicios?</span>
+          <i class="fas fa-plus"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Sí, todos nuestros sitios incluyen SEO básico optimizado. Para estrategias SEO más avanzadas, ofrecemos servicios adicionales de optimización y posicionamiento.</p>
+        </div>
+      </article>
+      
+      <article class="faq-item fade-in">
+        <button class="faq-question">
+          <span>¿Qué necesito para empezar?</span>
+          <i class="fas fa-plus"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Solo necesitas una idea clara de lo que quieres lograr. En la consulta inicial, te ayudaremos a definir objetivos, contenido, diseño y funcionalidades. ¡El resto lo hacemos nosotros!</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ====== CONTACTO ====== -->
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p class="contacto-subtitle">¿Listo para comenzar tu proyecto? Escríbenos</p>
+    <form id="contactForm">
+      <input type="text" placeholder="Tu nombre" required aria-label="Nombre">
+      <input type="email" placeholder="Tu correo electrónico" required aria-label="Correo electrónico">
+      <textarea placeholder="Cuéntanos tu idea o proyecto" required aria-label="Mensaje"></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <!-- ====== WAVE DIVIDER ====== -->
+  <div class="wave-divider">
+    <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C360,120 1080,-40 1440,40 L1440,0 L0,0 Z" fill="#00c46b" opacity="0.35"></path>
+    </svg>
+  </div>
+
+  <!-- ====== FOOTER ====== -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>Encuéntranos</h3>
+        <p>Av. Insurgentes Sur 427, Hipódromo, Cuauhtémoc,<br>06100 Ciudad de México, CDMX.</p>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Redes Sociales</h3>
+        <div class="social">
+          <a href="https://instagram.com/FrontBazar" target="_blank" rel="noopener noreferrer" aria-label="Instagram Front Bazar">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="mailto:equipofrontbazar@gmail.com" aria-label="Enviar correo a Front Bazar">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Contacto</h3>
+        <p><strong>Instagram:</strong> @FrontBazar</p>
+        <p><strong>Correo:</strong> equipofrontbazar@gmail.com</p>
+      </div>
+    </div>
+    <p class="footer-copy">© 2025 Front Bazar — Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- ====== BOTÓN FLOTANTE WHATSAPP ====== -->
+  <a href="https://wa.me/5215512345678" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- ====== BOTÓN SCROLL TO TOP ====== -->
+  <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ====== JAVASCRIPT ====== -->
+  <script src="script.js"></script>
+</body>
+</html>
